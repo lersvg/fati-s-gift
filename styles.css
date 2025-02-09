@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    color: #fff;
+}
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.countdown-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+#countdown {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.dog-container {
+    margin-top: 20px;
+}
+.dog-animation {
+    width: 100px;
+    animation: runDog 10s linear infinite;
+}
+@keyframes runDog {
+    from { transform: translateX(-100px); }
+    to { transform: translateX(100vw); }
+}
+.hidden {
+    display: none;
+}
