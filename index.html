@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Ezzahra's Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💖 A Special Surprise for You, Fatima Ezzahra 💖</h1>
+        <p class="countdown-text">Countdown to your 18th birthday:</p>
+        <div id="countdown">
+            <span id="days"></span> days
+            <span id="hours"></span> hours
+            <span id="minutes"></span> minutes
+            <span id="seconds"></span> seconds
+        </div>
+        <div class="dog-container">
+            <img src="dog.gif" alt="A cute dog running home" class="dog-animation">
+        </div>
+        <div id="questions-section" class="hidden">
+            <h2>Answer these questions to unlock your gift:</h2>
+            <form id="security-questions">
+                <label>What is your favorite food?</label>
+                <input type="text" id="q1" placeholder="Your answer here...">
+                
+                <label>What is your dream job? (If you don't have one, write 'I don't have one')</label>
+                <input type="text" id="q2" placeholder="Your answer here...">
+                
+                <label>What is your favorite movie or TV show?</label>
+                <input type="text" id="q3" placeholder="Your answer here...">
+                
+                <label>What is your biggest fear?</label>
+                <input type="text" id="q4" placeholder="Your answer here...">
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="message-section" class="hidden">
+            <h2>🎁 Congratulations, Fatima Ezzahra! 🎁</h2>
+            <p>You have unlocked your special surprise! Check your gift from your love. 💍</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
